@@ -1,0 +1,100 @@
+:root {
+  --light-text: #e5e5e5;
+  --dark-text: #A0583C;
+}
+
+.fl {
+  display: flex;
+}
+
+.top {
+  color: var(--light-text);
+}
+
+.btn {
+  color: var(--light-text);
+  font-family: Poppins;
+  font-weight: 400;
+  background-color: var(--dark-text);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.btn.small {
+  font-size: 12px;
+  padding: 12px;
+  margin: 15px;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+header a {
+  color: var(--light-text);
+}
+
+.logo-container,
+.auth-container {
+  flex: 1;
+}
+
+.logo-apple {
+  /* position: absolute; */
+}
+
+.logo {
+  font-size: 24px;
+  font-family: Mulish;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.auth-container {
+  text-align: right;
+}
+
+.apple-logo {
+  position: relative;
+  padding-left: 32px !important;
+}
+
+.apple-logo::before {
+  content: url(../img/apple\ logo.png);
+  position: absolute;
+  top: 50%;
+  transform: translate(-120%, -50%);  
+}
+
+ul {
+  justify-content: center;
+}
+
+.nav-container {
+  flex: 2;
+}
+
+.nav-container a {
+  color: var(--light-text);
+  font-size: 16px;
+  font-family: Poppins;
+  margin: 0 25px;
+  font-weight: 600;
+}
+
+.banner-bg {
+  width: 100%;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
